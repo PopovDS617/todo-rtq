@@ -1,0 +1,21 @@
+export const todos = [
+  'Buy milk',
+  'Call mom',
+  'Wash plates',
+  'Read the book',
+  'Exercise',
+  'Find a new diet plan',
+  'Buy new pair of jeans',
+  'Learn 10 words in spanish',
+  'Find a tent for a vacation',
+  'Buy tickets for the next match',
+  'Call doc about the teeth',
+  'Update CV',
+  'Buy medicine for the cat',
+  'Call Josh',
+].map((text, index) => ({
+  id: index + 1,
+  text: text,
+  active: true,
+  done: false,
+}));
